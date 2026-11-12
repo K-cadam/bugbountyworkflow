@@ -1,0 +1,7 @@
+{
+  "name": "TARGET",
+  "research_header": ["X-HackerOne-Research", "sudouid0"],
+  "daily_stop": 9000,
+  "min_interval": 0.2,
+  "root_domains": ["example.com"]
+}

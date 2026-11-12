@@ -1,0 +1,2 @@
+# Hosts guard.py and recon.sh may actively contact. One per line.
+# Add a host only after an ownership check (not SaaS / third-party).

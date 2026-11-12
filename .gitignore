@@ -1,0 +1,19 @@
+# Per-target folders hold engagement data (scope, policy, traffic logs, recon,
+# findings, reports, session material) and are never committed.
+# Ignore every top-level folder except the shared workflow ones.
+/*/
+!/_template/
+!/bin/
+!/.claude/
+*/work/
+*/reports/
+*/policy_raw.md
+!_template/**
+# secrets
+*.env
+.env*
+*credentials*
+*.pem
+*.key
+*.har
+*.jsonl
